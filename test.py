@@ -53,9 +53,10 @@ def handle_message(event):
             event.reply_token,
             TextSendMessage(text=cmd.help()))
     else:
-        line_bot_api.reply_message(
-            event.reply_token,
-            TextSendMessage(text="Ga ngerti gue. coba tulis \'?help\'"))
+        if 'ammaru-kun' in text:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text="Ga ngerti gue. coba tulis \'?help\'"))
 
 
     """

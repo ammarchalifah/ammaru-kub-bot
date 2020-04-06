@@ -7,8 +7,7 @@ class Command:
                 "?help"
             ]
 
-        self.help_info="\
-            Halo, aku Ammaru-kun!\n\
+        self.help_info="Halo, aku Ammaru-kun!\n\
             \n[Daftar Perintah]\
             \n[1]. ?meme\
             \n[2]. ?youtubemp3\

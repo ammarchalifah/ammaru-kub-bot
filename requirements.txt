@@ -1,3 +1,5 @@
 gunicorn
 flask
+flask-sqlalchemy
+psycopg2
 line-bot-sdk

@@ -4,14 +4,17 @@ class Command:
             [
                 "?meme",
                 "?youtubemp3",
-                "?help"
+                "?help",
+                "?tugas"
             ]
 
-        self.help_info="Halo, aku Ammaru-kun!\n\
-            \n[Daftar Perintah]\
-            \n[1]. ?meme\
-            \n[2]. ?youtubemp3\
-            \n[3]. ?help"
+        self.help_info="Halo, semuanya! Aku Ammaru-kun, chatbot eksploratif yang dibuat oleh Ammar!\n\
+            \nAku masih bodoh sih, jadi hanya bisa menerima perintah yang jelas saja. Nih, beberapa hal yang bisa kulakukan:\n\
+            \n1. ?meme\
+            \n2. ?youtubemp3\
+            \n3. ?tugas {nama-tugas} {deadline-tugas} {link-pengumpulan}\
+            \n4. ?help\n\
+            \nSelamat bersenang-senang!"
 
     def bot_cmd(self,selected):
         return self.commands[selected]
